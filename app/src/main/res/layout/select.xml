@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/header"
+    android:layout_height="match_parent">
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inser Data(Book)MySql"
+            android:id="@+id/btnadd"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/btnsb"
+            android:layout_alignStart="@+id/btnsb"
+            android:layout_alignRight="@+id/btnsb"
+            android:layout_alignEnd="@+id/btnsb" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShowBook"
+        android:id="@+id/btnsb"
+        android:layout_above="@+id/btnasy"
+        android:layout_alignRight="@+id/btnasy"
+        android:layout_alignEnd="@+id/btnasy"
+        android:textColor="#FFFFFF"
+
+        android:layout_alignLeft="@+id/btnasy"
+        android:layout_alignStart="@+id/btnasy" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Picture AsyncTask"
+        android:id="@+id/btnasy"
+        android:textColor="#FFFFFF"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/header3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson"
+        android:id="@+id/btnlesson"
+        android:layout_below="@+id/btnadd"
+        android:layout_alignLeft="@+id/btnadd"
+        android:layout_alignStart="@+id/btnadd"
+        android:layout_alignRight="@+id/btnadd"
+        android:textColor="#FFFFFF"
+        android:layout_alignEnd="@+id/btnadd" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Data Sqlite"
+        android:id="@+id/button2"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnasy"
+        android:layout_alignStart="@+id/btnasy"
+        android:layout_alignRight="@+id/btnasy"
+        android:layout_alignEnd="@+id/btnasy" />
+</RelativeLayout>
